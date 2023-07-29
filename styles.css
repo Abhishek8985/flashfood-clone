@@ -4,7 +4,7 @@
     background-color:#4230DD;
     top: 0%;
     position: sticky;
-    opacity: 0.8;
+    opacity: 0.9;
     
    
 }
@@ -92,8 +92,12 @@ a{
 .a1{
     width: auto;
     height:700px;
-    background-color: #4230dd;
-
+    /*background-color: #4230dd;*/
+    background-image: url("https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6227e532329aa42351839eb0_Home%20-%20hero%20qr%20code.png");
+    background-repeat: no-repeat;
+    background-size:1520px 900px;
+    
+    
  }
  #p{
     position: absolute;
@@ -101,4 +105,24 @@ a{
     width: 120px;
     height: 30px;
  }
+.image-76{
+    margin: 0px 0px 36px;
+    width: 250px;
+}
+.a2{
+    margin: 40px;
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 90%;
+    box-shadow: 2px 2px 5px 5px rgb(204, 206, 206);
+}
+.app {
+    padding-top: 70px;
+    transition: transform 0.3s ease;
+  }
   
+  /* Apply the transformation on hover */
+  .app:hover {
+    transform: translateY(-7px);
+     /* Move the image 10px upward on hover */
+  }
