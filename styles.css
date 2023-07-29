@@ -116,3 +116,13 @@ a{
     width: 90%;
     box-shadow: 2px 2px 5px 5px rgb(204, 206, 206);
 }
+.app {
+    padding-top: 70px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Apply the transformation on hover */
+  .app:hover {
+    transform: translateY(-7px);
+     /* Move the image 10px upward on hover */
+  }
