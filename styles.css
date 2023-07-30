@@ -119,7 +119,7 @@ a{
     margin-top: 100px;
     padding-top: 100px;
     width: 97%;
-    height:2500px;
+    height:3500px;
     box-shadow: 2px 2px 5px 5px rgb(204, 206, 206);
 }
 .app {
@@ -139,12 +139,12 @@ a{
     height: 40px;
     position: absolute;
     top: 1530px;
-    left: 650px;
+    left: 700px;
     border: none;
     border-radius: 20px;
     background-color:azure;
 }
-.b1{
+.b{
     margin-top: 150px;
     padding: 50px;
     width: 700px;
@@ -172,12 +172,19 @@ a{
     font-size: 48px;
     font-family: Figtree variablefont wght,sans-serif;
 }
-.box{
+.b1{
     background-color: #f2f2ff;
     position: relative;
     border-style: none;
     width: 1170px;
     height: 630px;
+    
+}
+.box{
+    width: 1170px;
+    background-color: #f2f2ff;
+    position: relative;
+    border-style: none;
     margin: 0 auto;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 1px rgb(204, 206, 206);
@@ -186,19 +193,20 @@ a{
     font-family: Figtree,sans-serif;
     font-size: 24px;
     width: 100%;
-    padding-bottom: 60px;
-    font-size: 35px;
+    padding-bottom: 50px;
+    font-size: 32px;
     text-align: left;
     margin-top: 20px;
 }
-.sodhi{
-    
-    padding: 60px;
-    position: relative;
+.s1{
     left: 0px;
     width: 640px;
+}
+.sodhi{
+    padding: 60px;
+    position: relative;
     font-family: Figtree,sans-serif;
-    font-size: 17px;
+    font-size: 18px;
 }
 #loc{
     text-decoration: none;
@@ -214,4 +222,47 @@ a{
     left: 780px;
     width: 352px;
     height: 575.25px;
+}
+.b2{
+    margin-top: 130px;
+    height: 378px;
+}
+.b3{
+    margin-top: 130px;
+    height: 400px;
+}
+#girl{
+    position: absolute;
+    top: -20px;
+    left: 40px;
+    width: 310.7px;
+    height: 378px;
+}
+.s2{
+    left: 400px;
+    width: 630px;
+}
+.s3{
+    left: 0px;
+    width: 470px;
+}
+#food{
+    position: absolute;
+    top: 0px;
+    left: 756px;
+    width: 414.26px;
+    height: 404px;
+}
+#t{
+    padding-top: 170px;
+    position: relative;
+    margin-bottom: 100px;
+    font-size: 40px;
+    font-family: Figtree variablefont wght,sans-serif;
+}
+.t{
+    text-align: center;
+    position: relative;
+    width: 700px;
+    left: 400px;
 }
