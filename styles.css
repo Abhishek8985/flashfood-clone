@@ -99,6 +99,7 @@ a{
     
     
  }
+
  #p{
     position: absolute;
     top: 500px;
@@ -109,12 +110,16 @@ a{
     margin: 0px 0px 36px;
     width: 250px;
 }
+.images{
+    padding-left: 70px;
+}
 .a2{
-    margin: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-top: 100px;
     padding-top: 100px;
-    width: 90%;
-    height:1500px;
+    width: 97%;
+    height:2500px;
     box-shadow: 2px 2px 5px 5px rgb(204, 206, 206);
 }
 .app {
@@ -133,21 +138,23 @@ a{
     width: 70px;
     height: 40px;
     position: absolute;
-    top: 1480px;
+    top: 1530px;
     left: 650px;
     border: none;
     border-radius: 20px;
     background-color:azure;
 }
 .b1{
-    padding: 30px;
+    margin-top: 150px;
+    padding: 50px;
     width: 700px;
     height: 70px;
     position: relative;
     left: 300px;
     border-style: none;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px rgb(204, 206, 206);}
+    box-shadow: 2px 2px 2px 2px rgb(204, 206, 206);
+}
 .one{
     background-color: #4230dd;
     color: aliceblue;
@@ -157,4 +164,54 @@ a{
     width: 190px;
     height: 60px;
 }
-
+#title{
+    padding-top: 100px;
+    position: relative;
+    margin-bottom: 100px;
+    left: 570px;
+    font-size: 48px;
+    font-family: Figtree variablefont wght,sans-serif;
+}
+.box{
+    background-color: #f2f2ff;
+    position: relative;
+    border-style: none;
+    width: 1170px;
+    height: 630px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgb(204, 206, 206);
+}
+.heading{
+    font-family: Figtree,sans-serif;
+    font-size: 24px;
+    width: 100%;
+    padding-bottom: 60px;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 20px;
+}
+.sodhi{
+    
+    padding: 60px;
+    position: relative;
+    left: 0px;
+    width: 640px;
+    font-family: Figtree,sans-serif;
+    font-size: 17px;
+}
+#loc{
+    text-decoration: none;
+    color: #4230DD;
+}
+#d{
+    margin: 20px;
+    color: #4d4d66;
+}
+#map{
+    position: absolute;
+    top: 20px;
+    left: 780px;
+    width: 352px;
+    height: 575.25px;
+}
