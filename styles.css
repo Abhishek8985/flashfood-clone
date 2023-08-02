@@ -97,7 +97,6 @@ a{
     background-repeat: no-repeat;
     background-size:1520px 900px;
 }
-
  #p{
     position: absolute;
     top: 500px;
@@ -162,11 +161,12 @@ a{
     width: 190px;
     height: 60px;
 }
-#title{
+.title{
     padding-top: 100px;
     position: relative;
     margin-bottom: 100px;
-    margin: 0 auto;
+    width: 300px;
+    left: 580px;
     font-size: 48px;
     font-family: Figtree variablefont wght,sans-serif;
 }
@@ -268,7 +268,6 @@ a{
     border-style: none;
     border-radius: 8px;
     background: #ffffff;
-    margin-bottom: 60px;
     width: 1150px;
     height: 300px;
     box-shadow: 1px 1px 10px 1px rgb(204, 206, 206);
@@ -278,9 +277,11 @@ a{
     padding-left: 40px;
     padding-bottom: 45px;
 }
-.r1 , .r2,.r3,.r4{
+.r1 , .r2,.r3{
     position: relative;
+    margin-bottom: 60px;
 }
+
 
 #stars{
     position: absolute;
@@ -301,93 +302,12 @@ a{
     font-size: 14px;
     font-family: Figtree variablefont wght,sans-serif;
 }
-.footer-page{
-    width:auto;
-    height:700px;
-    padding:5%;
-    padding-left: 8%;
-    background-color: rgb(16, 10, 28);
-}
-.footer-pic{
-    position: absolute;
-    top:1020px;
-    right:600px;
-    height:500px;
-    width:1000px;
-}
-.footer-img-grid{
-    width:auto;
-    height:220px;
-}
-.footer-image1, .footer-image2, .footer-image3, .footer-image4, .footer-image5{
-    height:220px;
-    width:220px;
-    padding : 10px;
-    border-radius: 10%;
-}
-.follow{
-    color:aliceblue;
-    position: absolute;
-    top:740px;
-    right:200px;
-    font-weight: bold;
-    font-family: Figtree,sans-serif;
-}
-.foot{
-    position: absolute;
-    top: 1100px;
-    left:150px;
-}
-.foot-logo{
-    position: absolute;
-    top: 20px;
-    left: 50px;
-}
-.foot-text1{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: Figtree,sans-serif;
-    color:aliceblue;
-    position: absolute;
-    top:100px;
-    left:20px;
-    width:150px;
-}
-.icons{
-    position: absolute;
-    top:250px;
-    left:20px;
-}
-.foot-wrap{
-    color:aliceblue;
-    font-family: Figtree variablefont wght,sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    position: relative;
-    padding:50px;
-    top:150px;
-    left:300px;
-    font-size: 14px;
-    line-height: 60px;
-    letter-spacing: .5px;
-}
-.copyrights{
-    position: absolute;
-   top:1440px;
-    right:200px;
-    opacity:0.5;
-    color: aliceblue;
-    font-size: larger;
-}
 .divs{
     position: relative;
     width: auto;
     height:730px;
     background-color: #4230dd;
 
-}
-.footer-page{
-    position: relative;
 }
 .b-text{
     position: absolute;
@@ -414,8 +334,108 @@ a{
     height: 583.76;
 }
 #abhi{
-    width: 1504px;
-    height: 300px;
+    width: 1503.2px;
+    height: 144.2px;
     position: absolute;
-    top: 430px;
+    top: 590px;
+}
+.space{
+    width: auto;
+    height: 100px;
+    border-style: none;
+}
+.footer{
+    width: auto;
+    height:auto;
+    position: relative;
+    background-color: #06022a;
+    padding: 8% 7% 10% 12%;
+}
+.footer-follow{
+    position: relative;
+    font-weight: 600;
+    left:900px;
+}
+.images-footer{
+    display:inline-flex;
+    flex-direction: row;
+    padding-top:5%;
+    width:auto;
+    height:auto;
+}
+.img1-footer, .img2-footer,.img3-footer, .img4-footer, .img5-footer{
+    width:220px;
+    height:220px;
+    border-radius: 10%;
+    padding:10px;
+}
+.img2-footer{
+    left:500px;
+}
+.img3-footer{
+    left:700px;
+}
+.img4-footer{
+    left:900px;
+}
+.img5-footer{
+    left:1100px;
+}
+.footer-pics{
+    width:350px;
+    height:450px;
+}
+.footer-logos{
+    position: absolute;
+    top:540px;
+    left:270px;
+}
+.footer-text{
+    position: absolute;
+    top:620px;
+    font-weight: 600;
+    width:250px;
+    left:250px;
+    color:aliceblue;
+    font-size:xx-large;
+}
+.footer-text:hover{
+    color:rgb(220, 241, 211);
+}
+.footer-icons{
+    position: relative;
+    width:200px;
+    height:100px;
+    padding-top:20%;
+}
+.insta-icon, .facebook-icon, .twitter-icon{
+    width:40px;
+    height:30px;
+}
+.footer-block{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap:0px;
+    grid-row: auto;
+    width:700px;
+    height:250px;
+    top:500px;
+    left:500px;
+    padding-top:4%;
+    padding-left:10%;
+    font-weight: 600;
+    color:aliceblue;
+}
+.footer-block:hover{
+    color:rgb(215, 232, 208);
+}
+.final{
+    position: absolute;
+    left:65%;
+    top:85%;
+    color:rgba(242,242,255,.62);
+    width:400px;
+    height:50px;
+    font-size:large;
 }
