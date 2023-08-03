@@ -1,3 +1,10 @@
+body{
+    font-family: Figtree variablefont wght,sans-serif;
+}
+.ab{
+    width: auto;
+    height: auto;
+}
 .stickybar{
     width:auto;
     height: 150px;
@@ -10,16 +17,19 @@
 }
 #logo{
     position: absolute; 
-    top: 20px; 
-    left: 150px;
-    width: 250px; 
+    top: 17%; 
+    left: 10%;
+    width: 18%; 
     height: auto;
 }
 .bar{
     position: absolute;
-    top: 60PX;
-    left: 500px;
+    top: 35%;
+    left: 37%;
     
+}
+#ff{
+    width: 70%;
 }
 a{
     text-decoration: none;
@@ -27,9 +37,12 @@ a{
     color: aliceblue;
 }
 .btn{
+    position: absolute;
+    top: 0%;
+    left: 100%;
     color: #1C1279;
     background: #CaF4E0;
-    padding: 16px 32px 17px;
+    padding: 2.5% 6% 2.5%;
     border-radius: 9px;
     box-shadow: 5px 5px;
     transition: transform 0.3s ease;
@@ -37,13 +50,13 @@ a{
 .btn:hover{
     transform: translateX(5px);
     transform: translateY(5px);
-     
+    
 }
 .dropdown {
     float: left;
     position: absolute;
-    top: 3.5px;
-    left: 320px;
+    top: -10%;
+    left: 50%;
   }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -53,7 +66,7 @@ a{
 }
 .dropdown-content a {
     color: aliceblue;
-    padding: 12px 16px;
+    padding: 8% 10%;
     text-decoration: none;
     display: block;
 }
@@ -62,31 +75,31 @@ a{
     background-color:#4230DD;
     color: aliceblue;
     text-decoration: aliceblue;
-    padding: 16px;
+    padding: 0%;
     border: none;
   }
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #1C1279;
-    min-width: 160px;
+    min-width: 250%;
     opacity: 0.8;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 2;
   } 
   .big-text{
     position: absolute;
-    top:220px;
-    left: 120px;
-    width:500px;
-    height:600px;
+    top:20%;
+    left: 10%;
+    width:35%;
+    height:80%;
     color:aliceblue;
     font-size: 40px;
     font-family: Figtree,sans-serif;
 }
 .normal-text{
     position: absolute;
-    top:250px;
+    top:43%;
     font-size: 20px;
 } 
 .a1{
@@ -95,32 +108,27 @@ a{
     /*background-color: #4230dd;*/
     background-image: url("https://assets-global.website-files.com/5e4482baa13a1926b23e2187/6227e532329aa42351839eb0_Home%20-%20hero%20qr%20code.png");
     background-repeat: no-repeat;
-    background-size:1520px 900px;
+    background-size:100% 120%;
 }
- #p{
-    position: absolute;
-    top: 500px;
-    width: 120px;
-    height: 30px;
- }
+
 .image-76{
-    margin: 0px 0px 36px;
-    width: 250px;
+    margin: 0px 0px 5%;
+    width: 18%;
 }
 .images{
-    padding-left: 70px;
+    padding-left: 7%;
 }
 .a2{
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    padding-top: 5%;
     width: auto;
     height:auto;
     box-shadow: 2px 2px 5px 5px rgb(204, 206, 206);
 }
 .app {
-    padding-top: 70px;
+    padding-top: 7%;
     transition: transform 0.3s ease;
   }
   
@@ -132,22 +140,22 @@ a{
 }
 
 .drop{
-    width: 70px;
-    height: 40px;
+    width: 5%;
+    height: 5%;
     position: absolute;
-    top: 1530px;
-    left: 700px;
+    top: 200%;
+    left: 45%;
     border: none;
     border-radius: 20px;
     background-color:azure;
 }
 .b{
-    margin-top: 150px;
-    padding: 50px;
-    width: 700px;
-    height: 70px;
+    margin-top: 10%;
+    padding: 4%;
+    width: 47%;
+    height: 10%;
     position: relative;
-    left: 300px;
+    left: 20%;
     border-style: none;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px rgb(204, 206, 206);
@@ -156,17 +164,17 @@ a{
     background-color: #4230dd;
     color: aliceblue;
     position: absolute;
-    top: 30px;
-    left: 480px;
-    width: 190px;
-    height: 60px;
+    top: 30%;
+    left: 63%;
+    width: 30%;
+    height: 40%;
 }
 .title{
-    padding-top: 100px;
+    padding-top: 10%;
     position: relative;
-    margin-bottom: 100px;
-    width: 300px;
-    left: 580px;
+    margin-bottom: 10%;
+    width: 40%;
+    left: 39%;
     font-size: 48px;
     font-family: Figtree variablefont wght,sans-serif;
 }
@@ -174,11 +182,11 @@ a{
     background-color: #f2f2ff;
     position: relative;
     border-style: none;
-    height: 630px;
+    height: 100%;
     
 }
 .box{
-    width: 1170px;
+    width: 80%;
     background-color: #f2f2ff;
     position: relative;
     border-style: none;
@@ -190,17 +198,17 @@ a{
     font-family: Figtree,sans-serif;
     font-size: 24px;
     width: auto;
-    padding-bottom: 50px;
+    padding-bottom: 5%;
     font-size: 32px;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 7%;
 }
 .s1{
-    left: 0px;
-    width: 640px;
+    left: 0%;
+    width: 50%;
 }
 .sodhi{
-    padding: 60px;
+    padding: 7%;
     position: relative;
     font-family: Figtree,sans-serif;
     font-size: 18px;
@@ -210,93 +218,94 @@ a{
     color: #4230DD;
 }
 #d{
-    margin: 20px;
+    margin: 5%;
     color: #4d4d66;
 }
 #map{
     position: absolute;
-    top: 20px;
-    left: 780px;
-    width: 352px;
-    height: 575.25px;
+    top: 4%;
+    left: 65%;
+    width: 33%;
+    height: 93%;
 }
 .b2{
-    margin-top: 130px;
-    height: 378px;
+    margin-top: 10%;
+    height: 100%;
 }
 .b3{
-    margin-top: 130px;
-    height: 400px;
+    margin-top: 10%;
+    height: 100%;
 }
 #girl{
     position: absolute;
-    top: -20px;
-    left: 40px;
-    width: 310.7px;
-    height: 378px;
+    top: -5%;
+    left: 6%;
+    width: 27%;
+    height: 100%;
 }
 .s2{
-    left: 400px;
-    width: 630px;
+    left: 33%;
+    width: 55%;
 }
 .s3{
-    left: 0px;
-    width: 470px;
+    left: 0%;
+    width: 40%;
 }
 #food{
     position: absolute;
-    top: 0px;
-    left: 756px;
-    width: 414.26px;
-    height: 404px;
+    top: 1%;
+    left: 64.5%;
+    width: 35.5%;
+    height: 100%;
 }
 #t{
-    padding-top: 170px;
+    padding-top: 30%;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 20%;
     font-size: 40px;
     font-family: Figtree variablefont wght,sans-serif;
 }
 .t{
     text-align: center;
     position: relative;
-    width: 700px;
-    left: 400px;
+    width: 49%;
+    left: 26%;
 }
 .review{
     margin: 0 auto;
     border-style: none;
     border-radius: 8px;
     background: #ffffff;
-    width: 1150px;
+    width: 80%;
     height: 300px;
     box-shadow: 1px 1px 10px 1px rgb(204, 206, 206);
 }
 #quote{
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-bottom: 45px;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
 }
 .r1 , .r2,.r3{
     position: relative;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
 }
-
-
+.r4{
+    position: relative;
+}
 #stars{
     position: absolute;
-    top: 90px;
-    left: 40px;
+    top: 30%;
+    left: 3%;
 }
 #rating{
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 2%;
+    padding-left: 3.5%;
     font-size: 18px;
     font-family: Figtree variablefont wght,sans-serif;
 }
 #name{
-    padding-top: 30px;
-    padding-left: 40px;
+    padding-top: 2%;
+    padding-left: 3.5%;
     font-weight: bold;
     color: #1c1279;
     font-size: 14px;
@@ -311,11 +320,11 @@ a{
 }
 .b-text{
     position: absolute;
-    top:30px;
-    left: 120px;
-    width:500px;
-    height:650px;
-    padding: 50px;
+    top:7%;
+    left: 8%;
+    width:32%;
+    height:100%;
+    padding: 3%;
     color:aliceblue;
     font-size: 40px;
     font-family: Figtree,sans-serif;
@@ -323,38 +332,39 @@ a{
 .n-text{
     color: #CaF4E0;
     position: absolute;
-    top:0px;
+    top:0%;
     font-size: 24px;
 }
 #bb{
     position: absolute;
-    top: 120px;
-    left: 690px;
-    width: 670px;
-    height: 583.76;
+    top: 18%;
+    left: 48%;
+    width: 45%;
+    height: 80%;
 }
 #abhi{
-    width: 1503.2px;
-    height: 144.2px;
+    width: 100%;
+    height: 19.5%;
     position: absolute;
-    top: 590px;
+    top: 80.5%;
 }
 .space{
     width: auto;
-    height: 100px;
+    height: auto;
+    padding: 4%;
     border-style: none;
 }
 .footer{
     width: auto;
     height:auto;
     position: relative;
-    background-color: #06022a;
+    background-color: rgb(16, 10, 28);
     padding: 8% 7% 10% 12%;
 }
 .footer-follow{
     position: relative;
     font-weight: 600;
-    left:900px;
+    left:100%;
 }
 .images-footer{
     display:inline-flex;
@@ -364,78 +374,66 @@ a{
     height:auto;
 }
 .img1-footer, .img2-footer,.img3-footer, .img4-footer, .img5-footer{
-    width:220px;
-    height:220px;
+    width:18.5%;
+    height:100%;
     border-radius: 10%;
-    padding:10px;
+    padding:1%;
 }
-.img2-footer{
-    left:500px;
-}
-.img3-footer{
-    left:700px;
-}
-.img4-footer{
-    left:900px;
-}
-.img5-footer{
-    left:1100px;
-}
-.footer-pics{
-    width:350px;
-    height:450px;
+.footer-img6{
+    width: 30%;
+    height: 30%;
 }
 .footer-logos{
     position: absolute;
-    top:540px;
-    left:270px;
+    top:51%;
+    left:18%;
 }
 .footer-text{
     position: absolute;
-    top:620px;
+    top:63%;
     font-weight: 600;
-    width:250px;
-    left:250px;
+    width:18%;
+    left:16%;
     color:aliceblue;
     font-size:xx-large;
 }
 .footer-text:hover{
-    color:rgb(220, 241, 211);
+    color:antiquewhite;
 }
 .footer-icons{
     position: relative;
-    width:200px;
-    height:100px;
+    width:80%;
+    height:100%;
     padding-top:20%;
 }
 .insta-icon, .facebook-icon, .twitter-icon{
-    width:40px;
-    height:30px;
+    width:20%;
+    height:5%;
 }
 .footer-block{
     position: absolute;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-gap:0px;
+    grid-gap:0%;
     grid-row: auto;
-    width:700px;
-    height:250px;
-    top:500px;
-    left:500px;
+    width:45%;
+    height:27%;
+    top:50%;
+    left:35%;
     padding-top:4%;
     padding-left:10%;
     font-weight: 600;
     color:aliceblue;
 }
 .footer-block:hover{
-    color:rgb(215, 232, 208);
+    color:antiquewhite;
 }
 .final{
     position: absolute;
     left:65%;
     top:85%;
     color:rgba(242,242,255,.62);
-    width:400px;
-    height:50px;
+    width:25%;
+    height:10%;
     font-size:large;
 }
